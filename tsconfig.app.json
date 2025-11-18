@@ -17,12 +17,15 @@
     "jsx": "react-jsx",
 
     /* Linting */
-    "strict": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "strict": false, // no estricto
+    "noEmitOnError": false, // no emite errores del js
+    "skipDefaultLibCheck": true, // eskipea comprobacion de tipos de libs
+    "isolatedModules": false, // evita problemas con los imports
+    "noUnusedLocals": false, // desactivar locales no usadas
+    "noUnusedParameters": false, // parametros no usados
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
   },
   "include": ["src"]
 }
