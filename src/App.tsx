@@ -1,10 +1,10 @@
 import CuentaPage from "./CuentaPage/CuentaPage"
-import LoginPage from "./LoginPage/LoginPage"
 import HistorialTransaccionesPage from "./HistorialTransaccionesPage/HistorialTransaccionesPage"
 import RealizarTransferenciaPage from "./RealizarTransferenciaPage/RealizarTransferenciaPage"
 import CrearCuentaPage from "./CrearCuentaPage/CrearCuentaPage"
 import AnadirFondosPage from "./AnadirFondosPage/AnadirFondosPage"
 import { Route, Routes } from "react-router-dom"
+import LoginPage from "./LoginPage/LoginPage"
 
 function App() {
   

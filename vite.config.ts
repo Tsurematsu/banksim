@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import { exec } from 'child_process';
+// import { exec } from 'child_process';
 import react from '@vitejs/plugin-react'
 import tailwindcss from "@tailwindcss/vite";
 
@@ -12,9 +12,9 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    {
-      name: 'run-node-script-on-reload',
-      handleHotUpdate() {exec('node ./mapImage.js', () => {});}
-    },
+    // {
+    //   name: 'run-node-script-on-reload',
+    //   handleHotUpdate() {exec('node ./mapImage.js', () => {});}
+    // },
   ],
 })
