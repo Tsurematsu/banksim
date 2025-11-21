@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import assets from '../assets';
-
+import img from '../assets/img';
 export default function LoginPage() {
   const navigate = useNavigate();
   // Estado para manejar la visibilidad de la contraseña
